@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "1";
+const prefix = "Vic";
 var adminprefix = '1'
 /////////////////////////
 ////////////////////////
@@ -349,7 +349,7 @@ client.on('message', message => {
   } else 
   if (message.content.startsWith(adminprefix + 'setl')) {
   client.user.setActivity(argresult , {type:'LISTENING'});
-      message.channel.send(`**✅   ${argresult}**`)
+      message.channel.send(`**✅   ${VicNew}**`)
   } else 
   if (message.content.startsWith(adminprefix + 'sets')) {
     client.user.setGame(argresult, "https://www.twitch.tv/dream");
