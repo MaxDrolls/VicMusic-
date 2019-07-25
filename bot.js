@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "Vic";
+const prefix = "vicplay";
 var adminprefix = '1'
 /////////////////////////
 ////////////////////////
